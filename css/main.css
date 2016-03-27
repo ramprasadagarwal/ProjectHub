@@ -10,7 +10,7 @@
 	background-color:#008686;
 	width:100%; 
 	color: white;
-	font-size: 20px;
+	font-size: 14px;
 	padding: 10px;
 }
 .header-name{
@@ -37,7 +37,11 @@
 	background-color: #d4ffea;
 	color: black;
 	padding: 20px;
-
+	height: 619px;
+}
+#interest{
+	color: #008686;
+	font-size: 16px;
 }
 .slideshow{
 	position: fixed;
@@ -89,7 +93,7 @@
     border-radius: 15px;
 } 
 .footer{
-	background-color:#008686;;
+	background-color:#008686;
 	width:100%; 
 	height: 50px;
 	color:white; 
@@ -120,7 +124,7 @@
 .signup-div-back:hover .signup{
 	display: block;	
 }
-input{
+input,select,.inputclass3{
 	width:90%;
 	height:35px;
 	border:1px solid black;
@@ -129,9 +133,12 @@ input{
 	font-family:serif;
 	padding:4px;
 }
+.inputclass3{
+	height: 250px;
+}
 .login-button
 {
-	background-color:#1589ff;
+	background-color:#008686;
 	width:90%;
 	height:30px;
 	margin-top: 10px;
@@ -144,4 +151,47 @@ input{
 	font-size: 15px;
 	color: red;
 	font-family: arial;
+}
+#post1
+{
+	background-color: #f0f8ff;
+    padding: 20px;
+    margin-bottom: 1px;
+}
+#posts{
+	margin-left: -15px;
+	overflow: auto;
+	height: 619px;
+}
+.protitle{
+	font-size: 16px;
+}
+.description{
+	text-align: justify;
+}
+#full_details{
+	padding: 20px;
+}
+button{
+	background-color: #008686;
+	padding: 5px;
+	border-color: white;
+	border-radius: 5px;
+	float: right;
+	color: white;
+}
+#add-project{
+	display: block;
+}
+#project-full-descp{
+	display: none;
+}
+.radio-button{
+	width: 20px;
+	height: 20px;
+	font-size: 20px;
+}
+.radio-field{
+	padding: 30px;
+	font-size: 16px;
 }
